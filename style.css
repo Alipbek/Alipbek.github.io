@@ -1,0 +1,297 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 1040px;
+	font-size: 18px; 
+	color: #222222;
+}
+
+
+/* РАЗДЕЛ ХЕДЕРА */
+
+header.main-header {
+	background-color: #222222;
+}
+
+.container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.flex-header {
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.logo {
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #f9f9f9;
+}
+
+.main-menu {
+	min-width: 300px;
+	padding: 0;
+	margin: 0;
+	list-style:none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+}
+
+.main-menu > li {
+	flex-grow: 1;
+}
+
+.main-menu li a {
+	text-decoration: none;
+	color: #f9f9f9;
+}
+
+.main-menu li a:hover {
+	border-bottom: 2px solid #f9f9f9;
+}
+
+.main-menu li a:active {
+	opacity: 0.5;
+}
+
+.contact-number a {
+	padding: 10px;
+	text-decoration: none;
+	color: #f9f9f9;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #f9f9f9;
+	border-radius: 3px;
+}
+
+.contact-number a:hover {
+	background-color: #f9f9f9;
+	color: #222222;
+}
+
+.contact-number a:active {
+	opacity: 0.5;
+}
+
+/* Здесь заканчивается хедер и начинается секшн-топ */
+
+main {
+	background-color: #eeeeee;
+}
+
+.section-top {
+	background: url("../img/fon.png") no-repeat 70% / 450px 450px;
+	padding: 10% 0;
+}
+
+.flex-page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+.section-title {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.title-first {
+	font-size: 32px;
+	text-align: left;
+}
+
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #222222;
+	color: #f9f9f9;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+
+/* Здесь начинается раздел обо мне */
+
+.section-about-me {
+	background-color: #222222;
+	color: #f9f9f9;
+	padding: 15px 0;
+}
+
+.about-me {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+
+.about-me > p {
+	text-align: justify;
+	width: 300px;
+	background-color: rgba(255, 255, 255, 0.2);
+	background-repeat: 2px solid #92e6e6;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.word-blog {
+	color: #92e6e6;
+}
+
+.word-blog:active {
+	opacity: 0.5;
+}
+
+/* Конец "Обо мне" и начало" "Раздел услуг" */
+
+.services {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.services-title {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.our-service {
+	font-size: 24px;
+	background-color: #f9f9f9;
+    flex-basis: 470px;
+    min-height: 200px;
+	padding: 15px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.our-service > p {
+	margin: 0;
+	max-width: 90%;
+	margin-bottom: 15px;
+}
+
+.btn-service {
+   margin-top: auto;
+   padding: 5px 10px;
+   background-color: #222222;
+   border-radius: 4px;
+}
+
+.btn-service a {
+   text-decoration: none;
+   color: #f9f9f9;
+}
+
+.our-service:hover .btn-service {
+	background-color: #f9f9f9;
+}
+
+.our-service:hover .btn-service a {
+	color: #222222;
+}
+
+.btn-service:active {
+	opacity: 0.5;
+}
+
+.our-service:first-child {
+	background: url("../img/lamp-service-black.png") no-repeat right bottom / 100px 100px;
+	background-color: #f9f9f9;
+}
+
+.our-service:first-child:hover {
+	background: url("../img/lamp-service-white.png") no-repeat right bottom / 100px 100px;
+	background-color: #222222;
+	color: #fff;
+}
+
+.our-service:nth-child(2) {
+	background: url("../img/lp-service-black.png") no-repeat right bottom / 100px 100px;
+	background-color: #f9f9f9;
+}
+
+.our-service:nth-child(2):hover {
+	background: url("../img/lp-service-white.png") no-repeat right bottom / 100px 100px;
+	background-color: #222222;
+	color: #fff;
+}
+
+
+/* конец раздела услуг */
+
+.main-footer {
+	color: #f9f9f9;
+	background-color: #222222;
+	padding: 3vh 0;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-top, .footer-middle {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #f9f9f9;
+}
+
+.footer-middle {
+	display: flex;
+}
+
+.footer-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-right: 25px;
+}
+
+.footer-menu:last-child {
+	margin-right: 0;
+}
+
+.footer-menu > ul {
+	padding: 0;
+	margin: 0;
+}
+
+.footer-menu li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.footer-menu a {
+	text-decoration: none;
+	color: #f9f9f9;
+}
+
+.footer-menu a:hover {
+	border-bottom: 2px solid #f9f9f9;
+}
+
+.footer-menu a:active {
+	opacity: 0.5;
+}
+
+.footer-bottom {
+	padding: 15px;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+}
