@@ -22,16 +22,9 @@ header.main-header {
 .flex-header {
 	padding: 15px 0;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 
-}
-
-.logo {
-	font-size: 32px;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #f9f9f9;
 }
 
 .main-menu {
@@ -61,24 +54,6 @@ header.main-header {
 	opacity: 0.5;
 }
 
-.contact-number a {
-	padding: 10px;
-	text-decoration: none;
-	color: #f9f9f9;
-	font-size: 14px;
-	font-weight: bold;
-	border: 1px solid #f9f9f9;
-	border-radius: 3px;
-}
-
-.contact-number a:hover {
-	background-color: #f9f9f9;
-	color: #222222;
-}
-
-.contact-number a:active {
-	opacity: 0.5;
-}
 
 /* Здесь заканчивается хедер и начинается секшн-топ */
 
@@ -87,8 +62,9 @@ main {
 }
 
 .section-top {
-	background: url("../img/fon.png") no-repeat 70% / 450px 450px;
+	background: url("img/fon.png") no-repeat 70% / 450px 450px;
 	padding: 10% 0;
+
 }
 
 .flex-page-header {
