@@ -1,3 +1,4 @@
+
 body {
 	margin: 0;
 	padding: 0;
@@ -62,47 +63,57 @@ main {
 }
 
 .section-top {
-	background: url("img/fon.png") no-repeat 70% / 450px 450px;
-	padding: 10% 0;
-
+	height: 600px;
 }
 
-.flex-page-header {
+.flex-top {
+	height: 100%;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.foto {
+	display: flex;
 	align-items: center;
-
+	height: 60px;
 }
 
-
-.section-title {
-	margin: 0;
-	padding: 0;
-	text-align: center;
+.foto img {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	margin-right: 10px;
 }
 
-.title-first {
-	font-size: 32px;
-	text-align: left;
-}
-
-.btn {
-	display: inline-block;
-	text-decoration: none;
-	background-color: #222222;
+.foto b {
+	text-transform: uppercase;
+	background: #222222;
 	color: #f9f9f9;
-	padding: 10px 15px;
-	font-size: 18px;
-	margin-top: 50px;
+	padding: 5px;
 }
 
+.Hi {
+	width: 600px;
+	font-size: 52px;
+	font-weight: bold;
+}
+
+.Hi > span {
+	color: red;
+}
 
 /* Здесь начинается раздел обо мне */
+
 
 .section-about-me {
 	background-color: #222222;
 	color: #f9f9f9;
 	padding: 15px 0;
+}
+
+.section-about-me .container .section-title {
+	text-align: center;
 }
 
 .about-me {
@@ -128,6 +139,7 @@ main {
 .word-blog:active {
 	opacity: 0.5;
 }
+
 
 /* Конец "Обо мне" и начало" "Раздел услуг" */
 
