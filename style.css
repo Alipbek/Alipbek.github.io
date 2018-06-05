@@ -184,6 +184,10 @@ main {
 	background: url(img/fon-for-projects.png) no-repeat center / cover;
 }
 
+.keksby {
+	background: url(img/keksby.png) no-repeat center / cover;
+}
+
 .project-back {
 	color: white;
 	display: flex;
@@ -197,9 +201,7 @@ main {
 .card:hover .project-front {transform: rotateY(180deg);}
 .card:hover .project-back {transform: rotateY(360deg);}
 
-.keksby {
-	background: url(img/keksby.png) no-repeat center / cover;
-}
+
   
 
 
