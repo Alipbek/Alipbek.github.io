@@ -141,87 +141,71 @@ main {
 }
 
 
-/* Конец "Обо мне" и начало" "Раздел услуг" */
+/* Конец "Обо мне" и начало" "Мои проекты" */
 
-.services {
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 40px;
-    flex-wrap: wrap;
-}
-
-.services-title {
+.project-title {
 	text-align: center;
-	margin-top: 15px;
 }
 
-.our-service {
-	font-size: 24px;
-	background-color: #f9f9f9;
-    flex-basis: 470px;
-    min-height: 200px;
-	padding: 15px;
-	border-radius: 4px;
+.projects {
+	min-height: 525px;
+	padding: 25px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+
+.open-project {
+	color: white;
+}
+
+.card {
+	width: 200px;
+	height: 250px;
+	border-radius: 5px;
+	position: relative;
+
+}
+
+.project-front,
+.project-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	transition: 1s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.project-front {
+	background: url(img/fon-for-projects.png) no-repeat center / 300px 300px;
+}
+
+.project-back {
+	color: white;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(32, 53, 65, 0.3);
+	transform: rotateY(180deg);
 }
 
-.our-service > p {
-	margin: 0;
-	max-width: 90%;
-	margin-bottom: 15px;
+.card:hover .project-front {transform: rotateY(180deg);}
+.card:hover .project-back {transform: rotateY(360deg);}
+
+.keksby {
+	background: url(img/keksby.png) no-repeat center / 200px 250px;
 }
-
-.btn-service {
-   margin-top: auto;
-   padding: 5px 10px;
-   background-color: #222222;
-   border-radius: 4px;
-}
-
-.btn-service a {
-   text-decoration: none;
-   color: #f9f9f9;
-}
-
-.our-service:hover .btn-service {
-	background-color: #f9f9f9;
-}
-
-.our-service:hover .btn-service a {
-	color: #222222;
-}
-
-.btn-service:active {
-	opacity: 0.5;
-}
-
-.our-service:first-child {
-	background: url("../img/lamp-service-black.png") no-repeat right bottom / 100px 100px;
-	background-color: #f9f9f9;
-}
-
-.our-service:first-child:hover {
-	background: url("../img/lamp-service-white.png") no-repeat right bottom / 100px 100px;
-	background-color: #222222;
-	color: #fff;
-}
-
-.our-service:nth-child(2) {
-	background: url("../img/lp-service-black.png") no-repeat right bottom / 100px 100px;
-	background-color: #f9f9f9;
-}
-
-.our-service:nth-child(2):hover {
-	background: url("../img/lp-service-white.png") no-repeat right bottom / 100px 100px;
-	background-color: #222222;
-	color: #fff;
-}
+  
 
 
-/*  конец раздела услуг  */
+
+/*  Мои проекты */
 
 .main-footer {
 	color: #f9f9f9;
