@@ -181,11 +181,11 @@ main {
 }
 
 .project-front {
-	background: url(img/fon-for-projects.png) no-repeat center / cover;
+	background: url("img/fon-for-projects.png") no-repeat center / cover;
 }
 
 .keksby {
-	background: url(img/keksby.png) no-repeat center / cover;
+	background: url("img/keksby.png") no-repeat center / cover;
 }
 
 .project-back {
