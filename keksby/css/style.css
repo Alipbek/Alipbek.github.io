@@ -23,7 +23,7 @@ body {
 .page-header {
     min-height: 490px;
     padding-top: 35px;
-    background-image: url("../keksby/img/header-bg.jpg");
+    background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -173,7 +173,7 @@ body {
     left: 137px;
     width: 65px;
     height: 65px;
-    background-image: url("../keksby/img/sprite.png");
+    background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
 }
 
@@ -298,7 +298,7 @@ body {
     position: absolute;
     width: 8px;
     height: 8px;
-    background: url("../keksby/img/sprite.png") no-repeat -5px -210px;
+    background: url("../img/sprite.png") no-repeat -5px -210px;
 }
 
 .reviews {
@@ -483,7 +483,7 @@ body {
 .feedback-form {
     width: 630px;
     padding-right: 390px;
-    background-image: url("../keksby/img/write.jpg");
+    background-image: url("../img/write.jpg");
     background-repeat: no-repeat;
     background-position: 100% 40px;
 }
@@ -662,7 +662,7 @@ body {
     margin-right: 10px;
     vertical-align: middle;
     color: #ffffff;
-    background-image: url("../keksby/img/sprite.png");
+    background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -702,7 +702,7 @@ body {
     height: 24px;
     font-size: 0;
     vertical-align: middle;
-    background-image: url("../keksby/img/sprite.png");
+    background-image: url("../img/sprite.png");
     background-repeat: no-repeat;
     background-position: -5px -419px;
 }

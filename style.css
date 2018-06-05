@@ -148,12 +148,10 @@ main {
 }
 
 .projects {
-	min-height: 525px;
 	padding: 25px 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-content: space-between;
 
 }
 
@@ -162,10 +160,11 @@ main {
 }
 
 .card {
-	width: 200px;
-	height: 250px;
+	width: 300px;
+	height: 350px;
 	border-radius: 5px;
 	position: relative;
+	margin-bottom: 15px;
 
 }
 
@@ -182,7 +181,7 @@ main {
 }
 
 .project-front {
-	background: url(img/fon-for-projects.png) no-repeat center / 300px 300px;
+	background: url(img/fon-for-projects.png) no-repeat center / cover;
 }
 
 .project-back {
@@ -199,7 +198,7 @@ main {
 .card:hover .project-back {transform: rotateY(360deg);}
 
 .keksby {
-	background: url(img/keksby.png) no-repeat center / 200px 250px;
+	background: url(img/keksby.png) no-repeat center / cover;
 }
   
 
