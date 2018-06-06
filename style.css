@@ -208,65 +208,30 @@ main {
 
 
 
-/*  Мои проекты */
+/* end Мои проекты and start footer */
 
 .main-footer {
-	color: #f9f9f9;
 	background-color: #222222;
-	padding: 3vh 0;
 }
 
-.footer-top {
+.nav-footer {
 	display: flex;
-	justify-content: space-between;
+	margin:  0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
 }
 
-.footer-top, .footer-middle {
-	padding-bottom: 30px;
-	border-bottom: 1px solid #f9f9f9;
+.nav-footer li {
+	list-style: none;
+	margin-right: 15px;
 }
 
-.footer-middle {
-	display: flex;
-}
-
-.footer-menu {
-	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-	margin-right: 25px;
-}
-
-.footer-menu:last-child {
+.nav-footer li:last-child {
 	margin-right: 0;
 }
 
-.footer-menu > ul {
-	padding: 0;
-	margin: 0;
-}
-
-.footer-menu li {
-	list-style: none;
-	margin-bottom: 15px;
-}
-
-.footer-menu a {
-	text-decoration: none;
+.nav-footer a {
 	color: #f9f9f9;
-}
-
-.footer-menu a:hover {
-	border-bottom: 2px solid #f9f9f9;
-}
-
-.footer-menu a:active {
-	opacity: 0.5;
-}
-
-.footer-bottom {
-	padding: 15px;
-	text-align: center;
-	font-size: 24px;
-	text-transform: uppercase;
+	text-decoration: none;
 }
