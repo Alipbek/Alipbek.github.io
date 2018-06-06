@@ -190,6 +190,7 @@ main {
 }
 
 .project-back {
+	text-align: center;
 	color: white;
 	display: flex;
 	flex-direction: column;
