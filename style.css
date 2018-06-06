@@ -210,28 +210,66 @@ main {
 
 /* end Мои проекты and start footer */
 
+
+
+
 .main-footer {
+	color: #f9f9f9;
 	background-color: #222222;
+	padding: 3vh 0;
 }
 
-.nav-footer {
+.footer-top {
 	display: flex;
-	margin:  0;
-	padding: 0;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
 }
 
-.nav-footer li {
-	list-style: none;
-	margin-right: 15px;
+.footer-top, .footer-middle {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #f9f9f9;
 }
 
-.nav-footer li:last-child {
+.footer-middle {
+	display: flex;
+}
+
+.footer-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	margin-right: 25px;
+}
+
+.footer-menu:last-child {
 	margin-right: 0;
 }
 
-.nav-footer a {
-	color: #f9f9f9;
+.footer-menu > ul {
+	padding: 0;
+	margin: 0;
+}
+
+.footer-menu li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.footer-menu a {
 	text-decoration: none;
+	color: #f9f9f9;
+}
+
+.footer-menu a:hover {
+	border-bottom: 2px solid #f9f9f9;
+}
+
+.footer-menu a:active {
+	opacity: 0.5;
+}
+
+.footer-bottom {
+	padding: 15px;
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
 }
